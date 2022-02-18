@@ -29,7 +29,7 @@ while i < len(img_list):
         files={
             'image': open(img_list[i], 'rb'),
         },
-        headers={'api-key': 'api-key:quickstart-QUdJIGlzIGNvbWluZy4uLi4K'} #Replace with your own DeepAI API. 
+        headers={'api-key': '0da1f745-c24b-4411-bb23-07f9667cc1dd'} #Replace with your own DeepAI API. 
     )
     data        = json.loads(r.text)    
 
